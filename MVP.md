@@ -33,6 +33,6 @@ Comportamento: Pessoas que tem problemas emocionais em definir e/ou seguir uma r
 Necessidade: Agendar e completar uma rotina.
 
 # Lista de funcionalidades identificadas pelo para o sistema modelo
-Login de acesso ao sistema
-Gerenciar rotinas (inserir, excluir, alterar, listar)
-Gerenciar dicas
+- Login de acesso ao sistema
+- Gerenciar rotinas (inserir, excluir, alterar, listar)
+- Gerenciar dicas
