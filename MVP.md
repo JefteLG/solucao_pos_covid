@@ -27,10 +27,10 @@ Cujo problema resolvido é criar e gerenciar suas tarefas de rotina
 - Nada a declarar
 
 ## Exemplo do sistema
-Apelido: Pessoa com ansiedade 001
-Perfil: Idade 12 a 70 anos, ambos os sexos 
-Comportamento: Pessoas que tem problemas emocionais em definir e/ou seguir uma rotina
-Necessidade: Agendar e completar uma rotina.
+- Apelido: Pessoa com ansiedade 001
+- Perfil: Idade 12 a 70 anos, ambos os sexos 
+- Comportamento: Pessoas que tem problemas emocionais em definir e/ou seguir uma rotina
+- Necessidade: Agendar e completar uma rotina.
 
 ## Lista de funcionalidades identificadas para o sistema modelo
 - Login de acesso ao sistema
