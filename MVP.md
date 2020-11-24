@@ -35,4 +35,5 @@ Cujo problema que precisa ser resolvido é criar e gerenciar suas tarefas de rot
 ## Lista de funcionalidades identificadas para o sistema modelo
 - Login de acesso ao sistema
 - Gerenciar rotinas (inserir, excluir, alterar, listar)
-- Gerenciar dicas
+- Gerenciar rotinas (inserir, excluir, alterar, listar)
+- Dicas
