@@ -6,5 +6,6 @@ void main() {
     title: "Título",
     theme: ThemeData(primaryColor: Colors.green),
     onGenerateRoute: rotas(),
+    debugShowCheckedModeBanner: false,
   ));
 }
