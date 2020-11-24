@@ -4,7 +4,7 @@
  Desenvolver um sistema para auxiliar pessoas com problemas de ansiedade e/ou depressão a criarem e executarem suas rotinas.
  
 ## Para cliente
-Cujo problema resolvido é criar e gerenciar suas tarefas de rotina
+Cujo problema que precisa ser resolvido é criar e gerenciar suas tarefas de rotina
 
 ## O sistema modelo
 É um aplicativo com que visa criar e editar tarefas de rotina, como o foco do aplicativo é auxiliar pessoas com problemas de ansiedade e/ou depressão, o aplicativo mantém também dicas para os usuários focadas em seguir dicas de profissionais em psicologia ao fazer as rotinas, exemplo: é importante que em sua rotina tenha atividades físicas.
