@@ -32,7 +32,7 @@ Perfil: Idade 12 a 70 anos, ambos os sexos
 Comportamento: Pessoas que tem problemas emocionais em definir e/ou seguir uma rotina
 Necessidade: Agendar e completar uma rotina.
 
-## Lista de funcionalidades identificadas pelo para o sistema modelo
+## Lista de funcionalidades identificadas para o sistema modelo
 - Login de acesso ao sistema
 - Gerenciar rotinas (inserir, excluir, alterar, listar)
 - Gerenciar dicas
