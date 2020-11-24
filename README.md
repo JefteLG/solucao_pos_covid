@@ -10,7 +10,6 @@ Grupo Baihanos
 - Lucas Lopes de Sousa.
 - Gabriel Pereira Veras.
 - Lorena Arruda de Sousa.
-- João Victor Maciel de Freitas.
 
 ## Contatos:
 
