@@ -27,7 +27,9 @@ class _CriarRotinaState extends State<CriarRotina> {
         onPressed: () async {
           readData(context).then((data) {
             Map<String, dynamic> dados = json.decode(data);
-            print(dados);
+            dados["rotinas"].add(
+                {"id": 5, "nome": textEditingController.text, "tarefas": []});
+            saveData(dados);
           });
         },
         child: Icon(Icons.save),
