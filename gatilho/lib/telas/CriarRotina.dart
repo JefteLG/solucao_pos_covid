@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:gatilho/recursos/TemplatePrincipal.dart';
 import 'package:gatilho/recursos/TrabalharJson.dart';
+import 'package:gatilho/rotas.dart';
 
 class CriarRotina extends StatefulWidget {
   @override
@@ -31,6 +32,7 @@ class _CriarRotinaState extends State<CriarRotina> {
                 {"id": 5, "nome": textEditingController.text, "tarefas": []});
             saveData(dados);
           });
+          Navigator.of(context).pushNamedAndRemoveUntil(PAGINA_PRINCIPAL, (Route<dynamic> route) => false);
         },
         child: Icon(Icons.save),
       ),

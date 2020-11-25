@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gatilho/recursos/TemplatePrincipal.dart';
+import 'package:gatilho/recursos/TrabalharJson.dart';
 import 'package:gatilho/rotas.dart';
 import 'package:gatilho/telas/CriarRotina.dart';
 import 'dart:convert';
@@ -12,9 +13,13 @@ class PaginaPrincipal extends StatefulWidget {
 class _PaginaPrincipalState extends State<PaginaPrincipal> {
   List<Widget> rotinas = [Text("Carregando...")];
 
+  @override
+  void initState() {
+    super.initState();
+  }
+
   void listar() async {
-    Map<String, dynamic> js = json.decode(
-        await DefaultAssetBundle.of(context).loadString("assets/dados.json"));
+    Map<String, dynamic> js = json.decode(await readData(context));
     rotinas = [];
     js["rotinas"].forEach((value) {
       rotinas.add(GestureDetector(
