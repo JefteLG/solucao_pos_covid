@@ -5,7 +5,11 @@ class TemplatePrincipal extends StatefulWidget {
 
   String titulo;
 
-  TemplatePrincipal({this.titulo, this.filho});
+  FloatingActionButton fab;
+
+  List<Widget> acoes;
+
+  TemplatePrincipal({this.titulo, this.filho, this.fab, this.acoes});
 
   @override
   _TemplatePrincipalState createState() => _TemplatePrincipalState();
@@ -28,6 +32,7 @@ class _TemplatePrincipalState extends State<TemplatePrincipal> {
         ),
       ),
       body: widget.filho,
+      floatingActionButton: widget.fab,
     );
   }
 }

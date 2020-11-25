@@ -1,0 +1,32 @@
+{
+  "rotinas": [
+    {
+      "id": 1,
+      "nome": "Praticar esportes",
+      "tarefas": [
+        {
+          "nome": "Caminhada matinal",
+          "feito": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Trabalhar na horta",
+      "tarefas": [
+        {
+          "nome": "Colher plantas",
+          "feito": true
+        },
+        {
+          "nome": "comprar plantas",
+          "feito": false
+        },
+        {
+          "nome": "Aguar plantas",
+          "feito": true
+        }
+      ]
+    }
+  ]
+}
